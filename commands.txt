@@ -1,0 +1,3 @@
+print $xmm0
+print $xmm0.v4_float
+

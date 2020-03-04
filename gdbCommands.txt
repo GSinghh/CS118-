@@ -1,0 +1,11 @@
+graph display $rsp
+graph display $rbp
+source gdbCommands
+graph display `displayStackFrame`
+//Add breakpoint
+//Run
+graph display /d $edx
+graph display /x $esi
+graph display /d $edi
+graph display /d $eax
+graph display `showCharacters`
