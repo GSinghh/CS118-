@@ -1,0 +1,2 @@
+as --gstabs -o lab2-2.o lab2-2.s 
+ld lab2-2.o -o lab2-2
